@@ -10,8 +10,8 @@ Requirements
 
 * Running web server. This can be local or on the internet
 * `CakePHP <http://cakephp.org>`_ 1.3.x (tested up to 13) in the same directory 
-where CORE will reside, named ``cakephp``. 
-  Example: 
+  where CORE will reside, named ``cakephp``. 
+  Example:: 
 
     /var/www/core
     /var/www/cakephp
@@ -24,12 +24,12 @@ Downloading CORE and CakePHP
 CORE makes use of other open source software. Because of this, the easiest way 
 to install it is to install it by cloning with `git <http://git-scm.com>`_. This
 will ensure that all dependencies are downloaded as well. Start by cloning both
-CORE and CakePHP.
+CORE and CakePHP::
 
-	$ git clone --recursive git://github.com/rockharbor/core.git core
-	$ git clone git://github.com/cakephp/cakephp.git cakephp
-	$ cd cakephp
-	$ git checkout 1.3.11
+    $ git clone --recursive git://github.com/rockharbor/core.git core
+    $ git clone git://github.com/cakephp/cakephp.git cakephp
+    $ cd cakephp
+    $ git checkout 1.3.11
 
 Configuration
 =============
@@ -53,7 +53,7 @@ Install default application data
     `CakePHP's bake <http://book.cakephp.org/view/1106/The-CakePHP-Console>`_ running. 
 
 To install the default data and initialize the upload directories, run the 
-following bake commands.
+following bake commands::
 
 	$ cake install install
 	$ cake media init
@@ -66,6 +66,6 @@ make sure the ``tmp`` and ``webroot/media/transfer`` directories are writeable.
 
 To reduce server load and improve the user experience when sending large amounts
 of emails, CORE uses a CRON job to send emails in groups. In order to send email
-you will need to set up a CRON job (or Scheduled Task). The command to call is
+you will need to set up a CRON job (or Scheduled Task). The command to call is::
 
     $ cake -app "/var/www/core" queue_sender send
