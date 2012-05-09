@@ -58,6 +58,9 @@ following bake commands::
 	$ cake install install
 	$ cake media init
 
+After installing the default data, an admin user will be created. The username is
+'admin' and the password is 'password'.
+
 Other server configuration
 ==========================
 
