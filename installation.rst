@@ -17,6 +17,7 @@ Requirements
     /var/www/cakephp
 
 * MySQL Server
+* PHP >= 5.2.x
 
 Downloading CORE and CakePHP
 ============================
