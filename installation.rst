@@ -27,8 +27,8 @@ to install it is to install it by cloning with `git <http://git-scm.com>`_. This
 will ensure that all dependencies are downloaded as well. Start by cloning both
 CORE and CakePHP::
 
-    $ git clone --recursive git://github.com/rockharbor/core.git core
-    $ git clone git://github.com/cakephp/cakephp.git cakephp
+    $ git clone --recursive https://github.com/rockharbor/core.git core
+    $ git clone https://github.com/cakephp/cakephp.git cakephp
     $ cd cakephp
     $ git checkout 1.3.11
 
